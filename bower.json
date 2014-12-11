@@ -11,5 +11,6 @@
     "angular-ui-router": ">= 0.2.11"
   },
   "ignore": [
-  ]
+  ],
+  "homepage": "https://://github.com/vizo/angular-ui-router-i18n"
 }
