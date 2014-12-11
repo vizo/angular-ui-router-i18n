@@ -1,8 +1,10 @@
 i18nUrlMatcher
 ==============
 
-i18nUrlMatcher for AngularUI Router
+I18nUrlMatcherFactory for AngularUI Router
 
+Installation
+------------
 ```
-bower install angular-ui-router-i18n-url-matcher
+bower install angular-ui-router-i18n
 ```
