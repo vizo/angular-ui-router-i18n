@@ -1,7 +1,7 @@
-I18nUrlMatcher
+i18nUrlMatcher
 ==============
 
-I18nUrlMatcher for AngularUI Router
+i18nUrlMatcher for AngularUI Router
 
 ```
 bower install angular-ui-router-i18n-url-matcher
