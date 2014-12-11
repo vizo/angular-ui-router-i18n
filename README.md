@@ -6,5 +6,5 @@ I18nUrlMatcherFactory for AngularUI Router
 Installation
 ------------
 ```
-bower install angular-ui-router-i18n
+bower install angular-ui-router-i18n --save
 ```
