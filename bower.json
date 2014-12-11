@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "angular-ui-router": ">= 0.2.11"
-  }
+  },
   "ignore": [
   ],
 }
