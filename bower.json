@@ -1,15 +1,15 @@
 {
   "name": "angular-ui-router-i18n-url-matcher",
   "version": "0.2.13",
-  "main": , "./i18nUrlMatcherFactory.js"
-  "license": "https://github.com/vizo/I18nUrlMatcher/blob/master/LICENSE",
+  "main": "./i18nUrlMatcherFactory.js",
+  "license": "https://github.com/vizo/i18nUrlMatcher/blob/master/LICENSE",
   "repository": {
     "type": "git",
-    "url": "git://github.com:vizo/I18nUrlMatcher.git"
+    "url": "git://github.com/vizo/i18nUrlMatcher.git"
   },
   "dependencies": {
     "angular-ui-router": ">= 0.2.11"
-  }
+  },
   "ignore": [
   ],
 }
