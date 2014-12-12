@@ -79,7 +79,7 @@ I18nUrlMatcher.prototype.exec = function (path, searchParams) {
 };
 
 I18nUrlMatcher.prototype.parameters = function () {
-  console.log('params...');
+  // console.log('params...');
   return this.params;
 };
 
