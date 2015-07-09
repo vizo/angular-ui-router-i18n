@@ -13,12 +13,15 @@ function I18nUrlMatcher(patterns, config, $urlMatcherFactoryProvider) {
   this.urlMatchers = [];
   this.params = {};
   this.values = {};
-  
+
   Object.keys(patterns).forEach(function(locale) {
     var pattern = patterns[locale];
     var urlMatcher = $urlMatcherFactoryProvider.compile(pattern, config);
     this.urlMatchers[locale] = urlMatcher;
     this.params = extend({}, urlMatcher.params, this.params);
+    if (!!$urlMatcherFactoryProvider.ParamSet) {
+      this.params = new $urlMatcherFactoryProvider.ParamSet(this.params);
+    }
     if (this.rootLocale == locale) {
       this.params.rootLocale;
     }
@@ -205,7 +208,7 @@ function $I18nUrlMatcherFactory($urlMatcherFactoryProvider) {
    *
    * @description
    * Creates a {@link ui.router.util.type:UrlMatcher `UrlMatcher`} for the specified pattern.
-   *   
+   *
    * @param {string} pattern  The URL pattern.
    * @param {Object} config  The config object hash.
    * @returns {UrlMatcher}  The UrlMatcher.
