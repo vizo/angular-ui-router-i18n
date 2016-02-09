@@ -8,7 +8,7 @@
     "url": "git://github.com/vizo/angular-ui-router-i18n.git"
   },
   "dependencies": {
-    "angular-ui-router": "= 0.2.11"
+    "angular-ui-router": ">= 0.2.18"
   },
   "ignore": [
   ],
