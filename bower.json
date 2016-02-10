@@ -1,6 +1,5 @@
 {
   "name": "angular-ui-router-i18n",
-  "version": "0.2.13",
   "main": "./i18nUrlMatcherFactory.js",
   "license": "https://github.com/vizo/angular-ui-router-i18n/blob/master/LICENSE",
   "repository": {
@@ -8,7 +7,7 @@
     "url": "git://github.com/vizo/angular-ui-router-i18n.git"
   },
   "dependencies": {
-    "angular-ui-router": "= 0.2.11"
+    "angular-ui-router": ">= 0.2.18"
   },
   "ignore": [
   ],
