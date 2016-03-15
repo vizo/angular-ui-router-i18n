@@ -6,5 +6,5 @@ I18nUrlMatcherFactory for AngularUI Router
 Installation
 ------------
 ```
-bower install --save git://github.com/darlanmendonca/angular-ui-router-i18n.git
+bower install git://github.com/vizo/angular-ui-router-i18n.git --save
 ```
