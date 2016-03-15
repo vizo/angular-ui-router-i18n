@@ -19,6 +19,9 @@ function I18nUrlMatcher(patterns, config, $urlMatcherFactoryProvider) {
     var urlMatcher = $urlMatcherFactoryProvider.compile(pattern, config);
     this.urlMatchers[locale] = urlMatcher;
     this.params = extend({}, urlMatcher.params, this.params);
+    if (!!$urlMatcherFactoryProvider.ParamSet) {
+      this.params = new $urlMatcherFactoryProvider.ParamSet(this.params);
+    }
     if (this.rootLocale == locale) {
       this.params.rootLocale;
     }
