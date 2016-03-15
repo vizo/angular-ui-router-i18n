@@ -38,7 +38,7 @@ function I18nUrlMatcher(patterns, config, $urlMatcherFactoryProvider) {
 //        this.params.push('locale');
       }
     }
-  }.bind(this));
+  }, this);
 }
 
 I18nUrlMatcher.prototype.format = function (values) {
@@ -82,7 +82,7 @@ I18nUrlMatcher.prototype.exec = function (path, searchParams) {
       values = urlMatcherValues;
       return true;
     }
-  }.bind(this));
+  }, this);
   return values;
 };
 
