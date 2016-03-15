@@ -10,5 +10,7 @@
   "dependencies": {
     "angular-ui-router": ">= 0.2.18"
   },
-  "homepage": "https://://github.com/vizo/angular-ui-router-i18n"
+  "homepage": "https://://github.com/vizo/angular-ui-router-i18n",
+  "ignore": {
+  }
 }
